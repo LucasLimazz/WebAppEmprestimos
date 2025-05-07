@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AYPjcchv7lKfVR6TlADlvmg6chn0choiebrgpoyavgM=",
+  "Hash": "jYfSPlgzVZM9kq1qPuApUtkv/FSFCCcjdV4lYZXxI9c=",
   "Source": "WebAppEmprestimos",
   "BasePath": "_content/WebAppEmprestimos",
   "Mode": "Default",
@@ -59,6 +59,48 @@
       "OriginalItemSpec": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebAppEmprestimos.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\custom.css",
+      "SourceId": "WebAppEmprestimos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\",
+      "BasePath": "_content/WebAppEmprestimos",
+      "RelativePath": "css/custom#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jhwq5jg7tl",
+      "Integrity": "Cci8llKF1/XsZJ4eLj6H2tpjzJBfZh7t0R4ifzCXcV4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\custom.css"
+    },
+    {
+      "Identity": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\Materia.css",
+      "SourceId": "WebAppEmprestimos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\",
+      "BasePath": "_content/WebAppEmprestimos",
+      "RelativePath": "css/Materia#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pdt95o3uwk",
+      "Integrity": "/TGfkRVTi3VSsjXWXz/LSRGckFqwE8A7hvA67sRtjdc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Materia.css"
+    },
+    {
       "Identity": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\site.css",
       "SourceId": "WebAppEmprestimos",
       "SourceType": "Discovered",
@@ -101,6 +143,48 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\img\\book.png",
+      "SourceId": "WebAppEmprestimos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\",
+      "BasePath": "_content/WebAppEmprestimos",
+      "RelativePath": "img/book#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "54ywdge1fh",
+      "Integrity": "S/6Mv99IPoTaTWj5+pAHxiX/9k5X4LZndqUEQn+tjNY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\book.png"
+    },
+    {
+      "Identity": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\img\\e-book.png",
+      "SourceId": "WebAppEmprestimos",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\",
+      "BasePath": "_content/WebAppEmprestimos",
+      "RelativePath": "img/e-book#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eexznv0zqh",
+      "Integrity": "1qbxthR9MA8asNqI8FZHVUMq6uMe2gScYW2Ebvcsxpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\e-book.png"
+    },
+    {
       "Identity": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\js\\site.js",
       "SourceId": "WebAppEmprestimos",
       "SourceType": "Discovered",
@@ -115,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6b9nfc4n3r",
-      "Integrity": "4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0=",
+      "Fingerprint": "5twubadovp",
+      "Integrity": "mSSnPBvbp2Jlfevv+uvFcR2CNWAwcxQJeagBsqHkYqc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1321,6 +1405,170 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/custom.css",
+      "AssetFile": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\custom.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cci8llKF1/XsZJ4eLj6H2tpjzJBfZh7t0R4ifzCXcV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 01:48:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cci8llKF1/XsZJ4eLj6H2tpjzJBfZh7t0R4ifzCXcV4="
+        }
+      ]
+    },
+    {
+      "Route": "css/custom.jhwq5jg7tl.css",
+      "AssetFile": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\custom.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "235"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Cci8llKF1/XsZJ4eLj6H2tpjzJBfZh7t0R4ifzCXcV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 01:48:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jhwq5jg7tl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/custom.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Cci8llKF1/XsZJ4eLj6H2tpjzJBfZh7t0R4ifzCXcV4="
+        }
+      ]
+    },
+    {
+      "Route": "css/Materia.css",
+      "AssetFile": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\Materia.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "308251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/TGfkRVTi3VSsjXWXz/LSRGckFqwE8A7hvA67sRtjdc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 01:32:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/TGfkRVTi3VSsjXWXz/LSRGckFqwE8A7hvA67sRtjdc="
+        }
+      ]
+    },
+    {
+      "Route": "css/Materia.pdt95o3uwk.css",
+      "AssetFile": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\Materia.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "308251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/TGfkRVTi3VSsjXWXz/LSRGckFqwE8A7hvA67sRtjdc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 01:32:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pdt95o3uwk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Materia.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/TGfkRVTi3VSsjXWXz/LSRGckFqwE8A7hvA67sRtjdc="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1485,8 +1733,8 @@
       ]
     },
     {
-      "Route": "js/site.6b9nfc4n3r.js",
-      "AssetFile": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\js\\site.js",
+      "Route": "img/book.54ywdge1fh.png",
+      "AssetFile": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\img\\book.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1495,19 +1743,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "230"
+          "Value": "32861"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0=\""
+          "Value": "\"S/6Mv99IPoTaTWj5+pAHxiX/9k5X4LZndqUEQn+tjNY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 14:13:32 GMT"
+          "Value": "Tue, 06 May 2025 19:27:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1517,7 +1765,171 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6b9nfc4n3r"
+          "Value": "54ywdge1fh"
+        },
+        {
+          "Name": "label",
+          "Value": "img/book.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S/6Mv99IPoTaTWj5+pAHxiX/9k5X4LZndqUEQn+tjNY="
+        }
+      ]
+    },
+    {
+      "Route": "img/book.png",
+      "AssetFile": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\img\\book.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32861"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S/6Mv99IPoTaTWj5+pAHxiX/9k5X4LZndqUEQn+tjNY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 19:27:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S/6Mv99IPoTaTWj5+pAHxiX/9k5X4LZndqUEQn+tjNY="
+        }
+      ]
+    },
+    {
+      "Route": "img/e-book.eexznv0zqh.png",
+      "AssetFile": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\img\\e-book.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1qbxthR9MA8asNqI8FZHVUMq6uMe2gScYW2Ebvcsxpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 19:31:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eexznv0zqh"
+        },
+        {
+          "Name": "label",
+          "Value": "img/e-book.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1qbxthR9MA8asNqI8FZHVUMq6uMe2gScYW2Ebvcsxpc="
+        }
+      ]
+    },
+    {
+      "Route": "img/e-book.png",
+      "AssetFile": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\img\\e-book.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1qbxthR9MA8asNqI8FZHVUMq6uMe2gScYW2Ebvcsxpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 06 May 2025 19:31:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1qbxthR9MA8asNqI8FZHVUMq6uMe2gScYW2Ebvcsxpc="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.5twubadovp.js",
+      "AssetFile": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mSSnPBvbp2Jlfevv+uvFcR2CNWAwcxQJeagBsqHkYqc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 07 May 2025 01:19:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5twubadovp"
         },
         {
           "Name": "label",
@@ -1525,7 +1937,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0="
+          "Value": "sha256-mSSnPBvbp2Jlfevv+uvFcR2CNWAwcxQJeagBsqHkYqc="
         }
       ]
     },
@@ -1540,7 +1952,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "230"
+          "Value": "1228"
         },
         {
           "Name": "Content-Type",
@@ -1548,11 +1960,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0=\""
+          "Value": "\"mSSnPBvbp2Jlfevv+uvFcR2CNWAwcxQJeagBsqHkYqc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 05 May 2025 14:13:32 GMT"
+          "Value": "Wed, 07 May 2025 01:19:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1562,7 +1974,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0="
+          "Value": "sha256-mSSnPBvbp2Jlfevv+uvFcR2CNWAwcxQJeagBsqHkYqc="
         }
       ]
     },

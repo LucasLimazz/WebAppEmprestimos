@@ -5,12 +5,28 @@
       "PackagePath": "staticwebassets\\WebAppEmprestimos.hwsh1sch6g.bundle.scp.css"
     },
     {
+      "Id": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\Materia.css",
+      "PackagePath": "staticwebassets\\css\\Materia.css"
+    },
+    {
+      "Id": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
       "Id": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\img\\book.png",
+      "PackagePath": "staticwebassets\\img\\book.png"
+    },
+    {
+      "Id": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\img\\e-book.png",
+      "PackagePath": "staticwebassets\\img\\e-book.png"
     },
     {
       "Id": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\js\\site.js",

@@ -72,6 +72,8 @@ namespace WebAppEmprestimos.Controllers
                 _db.Emprestimos.Add(emprestimos);
                 _db.SaveChanges();
 
+                TempData["MensagemSucesso"] = "Cadastro realizado com sucesso!";
+
                 return RedirectToAction("Index");
             }
 
@@ -86,8 +88,12 @@ namespace WebAppEmprestimos.Controllers
                 _db.Emprestimos.Update(emprestimo);
                 _db.SaveChanges();
 
+                TempData["MensagemSucesso"] = "Edição realizado com sucesso!";
+
                 return RedirectToAction("Index");
             }
+
+            TempData["MensagemErro"] = "Ocorreu um erro ao realizar a edição!";
 
             return View(emprestimo);
         }
@@ -101,7 +107,9 @@ namespace WebAppEmprestimos.Controllers
             }
 
             _db.Emprestimos.Remove(emprestimo);
-            _db.SaveChanges();  
+            _db.SaveChanges();
+
+            TempData["MensagemSucesso"] = "Remoção realizada com sucesso!";
 
             return RedirectToAction("Index");
         }

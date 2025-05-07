@@ -1,5 +1,9 @@
+wwwroot\css\custom.css
+wwwroot\css\Materia.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\img\book.png
+wwwroot\img\e-book.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

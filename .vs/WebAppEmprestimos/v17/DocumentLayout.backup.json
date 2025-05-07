@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Workspace\\WebAppEmprestimos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|c:\\workspace\\webappemprestimos\\webappemprestimos\\views\\emprestimo\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|solutionrelative:webappemprestimos\\views\\emprestimo\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|c:\\workspace\\webappemprestimos\\webappemprestimos\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|solutionrelative:webappemprestimos\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|c:\\workspace\\webappemprestimos\\webappemprestimos\\views\\emprestimo\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|solutionrelative:webappemprestimos\\views\\emprestimo\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|c:\\workspace\\webappemprestimos\\webappemprestimos\\wwwroot\\css\\materia.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|solutionrelative:webappemprestimos\\wwwroot\\css\\materia.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|c:\\workspace\\webappemprestimos\\webappemprestimos\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|solutionrelative:webappemprestimos\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|c:\\workspace\\webappemprestimos\\webappemprestimos\\views\\emprestimo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|solutionrelative:webappemprestimos\\views\\emprestimo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|c:\\workspace\\webappemprestimos\\webappemprestimos\\views\\emprestimo\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|solutionrelative:webappemprestimos\\views\\emprestimo\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|c:\\workspace\\webappemprestimos\\webappemprestimos\\models\\emprestimosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|solutionrelative:webappemprestimos\\models\\emprestimosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|c:\\workspace\\webappemprestimos\\webappemprestimos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83236D25-276A-4A91-8BEC-2C3AF07B9975}|WebAppEmprestimos\\WebAppEmprestimos.csproj|solutionrelative:webappemprestimos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,80 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Excluir.cshtml",
-              "DocumentMoniker": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Views\\Emprestimo\\Excluir.cshtml",
-              "RelativeDocumentMoniker": "WebAppEmprestimos\\Views\\Emprestimo\\Excluir.cshtml",
-              "ToolTip": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Views\\Emprestimo\\Excluir.cshtml",
-              "RelativeToolTip": "WebAppEmprestimos\\Views\\Emprestimo\\Excluir.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T13:11:08.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Views\\Emprestimo\\Editar.cshtml",
-              "RelativeDocumentMoniker": "WebAppEmprestimos\\Views\\Emprestimo\\Editar.cshtml",
-              "ToolTip": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Views\\Emprestimo\\Editar.cshtml",
-              "RelativeToolTip": "WebAppEmprestimos\\Views\\Emprestimo\\Editar.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T12:37:42.027Z",
+              "Title": "custom.css",
+              "DocumentMoniker": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\custom.css",
+              "RelativeDocumentMoniker": "WebAppEmprestimos\\wwwroot\\css\\custom.css",
+              "ToolTip": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\custom.css",
+              "RelativeToolTip": "WebAppEmprestimos\\wwwroot\\css\\custom.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-07T01:34:56.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmprestimosModel.cs",
-              "DocumentMoniker": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Models\\EmprestimosModel.cs",
-              "RelativeDocumentMoniker": "WebAppEmprestimos\\Models\\EmprestimosModel.cs",
-              "ToolTip": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Models\\EmprestimosModel.cs",
-              "RelativeToolTip": "WebAppEmprestimos\\Models\\EmprestimosModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T12:25:58.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Cadastrar.cshtml",
-              "DocumentMoniker": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Views\\Emprestimo\\Cadastrar.cshtml",
-              "RelativeDocumentMoniker": "WebAppEmprestimos\\Views\\Emprestimo\\Cadastrar.cshtml",
-              "ToolTip": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Views\\Emprestimo\\Cadastrar.cshtml",
-              "RelativeToolTip": "WebAppEmprestimos\\Views\\Emprestimo\\Cadastrar.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T00:03:50.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Views\\Emprestimo\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebAppEmprestimos\\Views\\Emprestimo\\Index.cshtml",
-              "ToolTip": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Views\\Emprestimo\\Index.cshtml",
-              "RelativeToolTip": "WebAppEmprestimos\\Views\\Emprestimo\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACIAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T16:12:45.359Z",
+              "DocumentIndex": 1,
+              "Title": "Materia.css",
+              "DocumentMoniker": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\Materia.css",
+              "RelativeDocumentMoniker": "WebAppEmprestimos\\wwwroot\\css\\Materia.css",
+              "ToolTip": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\wwwroot\\css\\Materia.css",
+              "RelativeToolTip": "WebAppEmprestimos\\wwwroot\\css\\Materia.css",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAQwNsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-07T01:27:18.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmprestimoController.cs",
-              "DocumentMoniker": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Controllers\\EmprestimoController.cs",
-              "RelativeDocumentMoniker": "WebAppEmprestimos\\Controllers\\EmprestimoController.cs",
-              "ToolTip": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Controllers\\EmprestimoController.cs",
-              "RelativeToolTip": "WebAppEmprestimos\\Controllers\\EmprestimoController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAswGkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T16:12:07.021Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebAppEmprestimos\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Workspace\\WebAppEmprestimos\\WebAppEmprestimos\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebAppEmprestimos\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T19:03:17.653Z",
               "EditorCaption": ""
             }
           ]
