@@ -79,3 +79,10 @@ C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\obj\Debug\net6.0\WebAppEmpresti
 C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\obj\Debug\net6.0\WebAppEmprestimos.genruntimeconfig.cache
 C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\obj\Debug\net6.0\ref\WebAppEmprestimos.dll
 C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\obj\Debug\net6.0\WebAppEmprestimos.sourcelink.json
+C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\bin\Debug\net6.0\ClosedXML.dll
+C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\bin\Debug\net6.0\Irony.dll
+C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\bin\Debug\net6.0\SixLabors.Fonts.dll
+C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\bin\Debug\net6.0\System.IO.Packaging.dll
+C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\bin\Debug\net6.0\XLParser.dll
