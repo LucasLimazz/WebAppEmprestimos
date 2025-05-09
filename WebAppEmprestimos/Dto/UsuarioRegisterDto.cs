@@ -16,7 +16,8 @@ namespace WebAppEmprestimos.Dto
         [Required(ErrorMessage = "Digite a senha!")]
         public string Senha { get; set; }
 
-        [Required(ErrorMessage = "Confirme a senha!")]
+        [Required(ErrorMessage = "Confirme a senha!"),
+            Compare("Senha", ErrorMessage = "As senhas não estão iguais")]
         public string ConfirmaSenha { get; set; }
     }
 }
