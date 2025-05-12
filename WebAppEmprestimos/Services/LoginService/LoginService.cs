@@ -15,6 +15,45 @@ namespace WebAppEmprestimos.Services.LoginService
             _senhaInterface = senhaInterface;
         }
 
+        public async Task<ResponseModel<UsuarioModel>> Login(UsuarioLoginDto usuarioLoginDto)
+        {
+            ResponseModel<UsuarioModel> response = new ResponseModel<UsuarioModel> ();   
+
+            try
+            {
+
+                var usuario = _context.Usuarios.FirstOrDefault(x => x.Email == usuarioLoginDto.Email);
+
+                if (usuario == null)
+                {
+                    response.Mensagem = "Credenciais inválidas!";
+                    response.Status = false;
+                    return response;
+                }
+
+                if (!_senhaInterface.VerificaSenha(usuarioLoginDto.Senha, usuario.SenhaHash, usuario.SenhaSalt))
+                {
+                    response.Mensagem = "Credenciais inválidas!";
+                    response.Status = false;
+                    return response;
+                }
+
+                //Criar uma sessão
+
+                response.Mensagem = "Usuário logado com sucesso";
+                return response;
+    
+            }
+            catch (Exception ex) 
+            {
+
+                response.Mensagem = ex.Message;
+                response.Status = false;
+                return response;
+
+            }
+        }
+
         public async Task<ResponseModel<UsuarioModel>> RegistrarUsuario(UsuarioRegisterDto usuarioRegisterDto)
         {
 

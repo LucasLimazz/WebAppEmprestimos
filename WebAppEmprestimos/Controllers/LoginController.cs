@@ -47,5 +47,11 @@ namespace WebAppEmprestimos.Controllers
             }
 
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(UsuarioLoginDto usuarioLoginDto)
+        {
+            return View();
+        }
     }
 }

@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using WebAppEmprestimos.Data;
 using WebAppEmprestimos.Services.LoginService;
 using WebAppEmprestimos.Services.SenhaService;
+using WebAppEmprestimos.Services.SessaoService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddScoped<ILoginInterface, LoginService>();
 builder.Services.AddScoped<ISenhaInterface, SenhaService>();
+builder.Services.AddScoped<ISessaoInterface, SessaoService>();
 
 var app = builder.Build();
 
