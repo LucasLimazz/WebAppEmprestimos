@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebAppEmprestimos.Dto;
 using WebAppEmprestimos.Services.LoginService;
+using WebAppEmprestimos.Services.SessaoService;
 
 namespace WebAppEmprestimos.Controllers
 {
@@ -8,14 +9,28 @@ namespace WebAppEmprestimos.Controllers
     {
 
         private readonly ILoginInterface _loginInterface;
-        public LoginController(ILoginInterface loginInterface) 
+        private readonly ISessaoInterface _sessaoInterface;
+        public LoginController(ILoginInterface loginInterface, ISessaoInterface sessaoInterface) 
         {
             _loginInterface = loginInterface;
+            _sessaoInterface = sessaoInterface;
         }
 
-        public IActionResult Index()
+        public IActionResult Login()
         {
+            var usuario = _sessaoInterface.BuscarSessao();
+            if (usuario != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
             return View();
+        }
+
+        public IActionResult Logout()
+        {
+            _sessaoInterface.RemoveSessao();      
+            return RedirectToAction("Login");
         }
 
         public IActionResult Registrar()
@@ -51,7 +66,24 @@ namespace WebAppEmprestimos.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(UsuarioLoginDto usuarioLoginDto)
         {
-            return View();
+            if (ModelState.IsValid) 
+            { 
+                var usuario = await _loginInterface.Login(usuarioLoginDto);
+
+                if (usuario.Status) 
+                {
+                    TempData["MensagemSucesso"] = usuario.Mensagem;
+                    return RedirectToAction("Index", "Home");
+                } else
+                {
+                    TempData["MensagemErro"] = usuario.Mensagem;
+                    return View(usuarioLoginDto);   
+                }
+            } 
+            else
+            {
+                return View(usuarioLoginDto);
+            }
         }
     }
 }

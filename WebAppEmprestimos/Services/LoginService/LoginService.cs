@@ -2,6 +2,7 @@
 using WebAppEmprestimos.Dto;
 using WebAppEmprestimos.Models;
 using WebAppEmprestimos.Services.SenhaService;
+using WebAppEmprestimos.Services.SessaoService;
 
 namespace WebAppEmprestimos.Services.LoginService
 {
@@ -9,10 +10,12 @@ namespace WebAppEmprestimos.Services.LoginService
     {
         private readonly ApplicationDbContext _context;
         private readonly ISenhaInterface _senhaInterface;
-        public LoginService(ApplicationDbContext context, ISenhaInterface senhaInterface)
+        private readonly ISessaoInterface _sessaoInterface;
+        public LoginService(ApplicationDbContext context, ISenhaInterface senhaInterface, ISessaoInterface sessaoInterface)
         {
             _context = context;
             _senhaInterface = senhaInterface;
+            _sessaoInterface = sessaoInterface;
         }
 
         public async Task<ResponseModel<UsuarioModel>> Login(UsuarioLoginDto usuarioLoginDto)
@@ -39,6 +42,8 @@ namespace WebAppEmprestimos.Services.LoginService
                 }
 
                 //Criar uma sessão
+
+                _sessaoInterface.CriarSessao(usuario);
 
                 response.Mensagem = "Usuário logado com sucesso";
                 return response;

@@ -86,3 +86,4 @@ C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\bin\Debug\net6.0\Irony.dll
 C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\bin\Debug\net6.0\SixLabors.Fonts.dll
 C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\bin\Debug\net6.0\System.IO.Packaging.dll
 C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\bin\Debug\net6.0\XLParser.dll
+C:\Workspace\WebAppEmprestimos\WebAppEmprestimos\bin\Debug\net6.0\Newtonsoft.Json.dll

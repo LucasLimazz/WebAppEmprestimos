@@ -1,28 +1,37 @@
-﻿using WebAppEmprestimos.Models;
+﻿using Newtonsoft.Json;
+using System.Text.Json.Serialization;
+using WebAppEmprestimos.Models;
 
 namespace WebAppEmprestimos.Services.SessaoService
 {
     public class SessaoService : ISessaoInterface
     {
-        private readonly IHttpContextAccessor _contextAcessor;
-        public SessaoService(IHttpContextAccessor acessor)
+        private readonly IHttpContextAccessor _contextAccessor;
+        public SessaoService(IHttpContextAccessor contextAccessor)
         {
-         
+            _contextAccessor = contextAccessor;
         }
 
         public UsuarioModel BuscarSessao()
         {
-            throw new NotImplementedException();
+            var sessaoUsuario = _contextAccessor.HttpContext.Session.GetString("sessaoUsuario");
+            if(string.IsNullOrEmpty(sessaoUsuario))
+            {
+                return null;
+            }
+
+            return JsonConvert.DeserializeObject<UsuarioModel>(sessaoUsuario);
         }
 
         public void CriarSessao(UsuarioModel usuarioModel)
         {
-            throw new NotImplementedException();
+            var usuarioJson = JsonConvert.SerializeObject(usuarioModel);
+            _contextAccessor.HttpContext.Session.SetString("sessaoUsuario", usuarioJson);
         }
 
         public void RemoveSessao()
         {
-            throw new NotImplementedException();
+            _contextAccessor.HttpContext.Session.Remove("sessaoUsuario");
         }
     }
 }
