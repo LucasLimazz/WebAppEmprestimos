@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using WebAppEmprestimos.Data;
+using WebAppEmprestimos.Services.EmprestimosService;
 using WebAppEmprestimos.Services.LoginService;
 using WebAppEmprestimos.Services.SenhaService;
 using WebAppEmprestimos.Services.SessaoService;
@@ -18,6 +19,7 @@ builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<ILoginInterface, LoginService>();
 builder.Services.AddScoped<ISenhaInterface, SenhaService>();
 builder.Services.AddScoped<ISessaoInterface, SessaoService>();
+builder.Services.AddScoped<IEmprestimosInterface, EmprestimosService>();
 
 builder.Services.AddSession(options =>
 {
